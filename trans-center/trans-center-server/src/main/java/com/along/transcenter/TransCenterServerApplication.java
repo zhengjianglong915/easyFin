@@ -8,16 +8,16 @@ import org.springframework.context.annotation.ImportResource;
 import com.along.accountcenter.services.AccountService;
 
 @SpringBootApplication
-@ImportResource(locations = {"classpath*:trans-center-spring.xml"})
+@ImportResource(locations = {"classpath:spring/trans-center-spring.xml"})
 public class TransCenterServerApplication {
 
     public static void main(String[] args) {
         SpringApplication springApplication = new SpringApplication(TransCenterServerApplication.class);
         ApplicationContext applicationContext = springApplication.run(args);
 
-//        AccountService accountService = (AccountService) applicationContext
-//                .getBean("accountService");
-//
-//        System.out.println(accountService.queryAccount(112L));
+        AccountService accountService = (AccountService) applicationContext
+                .getBean("accountServiceReference");
+
+        System.out.println(accountService.queryAccount(112L));
     }
 }

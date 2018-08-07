@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ImportResource;
 
 @SpringBootApplication
-@ImportResource(locations = {"classpath*:account-center-server.xml"})
+@ImportResource(locations = {"classpath:spring/account-center-server.xml"})
 public class AccountCenterServerApplication {
 
     public static void main(String[] args) {

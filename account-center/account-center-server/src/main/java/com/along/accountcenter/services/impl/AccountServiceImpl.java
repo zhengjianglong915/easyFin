@@ -1,7 +1,5 @@
 package com.along.accountcenter.services.impl;
 
-import org.springframework.stereotype.Service;
-
 import com.along.accountcenter.model.AccountModel;
 import com.along.accountcenter.services.AccountService;
 
