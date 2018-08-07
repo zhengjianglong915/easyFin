@@ -52,4 +52,15 @@ public class AccountModel {
     public void setAge(Integer age) {
         this.age = age;
     }
+
+    @Override
+    public String toString() {
+        return "AccountModel{" +
+                "userId=" + userId +
+                ", userName='" + userName + '\'' +
+                ", loginName='" + loginName + '\'' +
+                ", password='" + password + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }

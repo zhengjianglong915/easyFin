@@ -1,4 +1,4 @@
-package com.along.transcenterserver;
+package com.along.transcenter;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

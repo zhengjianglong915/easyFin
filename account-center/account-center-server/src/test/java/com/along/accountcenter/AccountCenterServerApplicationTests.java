@@ -1,4 +1,4 @@
-package com.along.accountcenterserver;
+package com.along.accountcenter;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

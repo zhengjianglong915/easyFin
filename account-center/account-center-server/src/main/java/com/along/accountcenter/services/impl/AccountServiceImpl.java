@@ -1,4 +1,6 @@
-package com.along.accountcenterserver.services;
+package com.along.accountcenter.services.impl;
+
+import org.springframework.stereotype.Service;
 
 import com.along.accountcenter.model.AccountModel;
 import com.along.accountcenter.services.AccountService;
@@ -8,6 +10,7 @@ import com.along.accountcenter.services.AccountService;
  * @create: 2018-08-07 13:09
  */
 public class AccountServiceImpl implements AccountService {
+
     @Override
     public AccountModel queryAccount(Long userId) {
         AccountModel accountModel = new AccountModel();
