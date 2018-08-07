@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/account-center/account-center.iml" filepath="$PROJECT_DIR$/account-center/account-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/account-center/account-center-api/account-center-api.iml" filepath="$PROJECT_DIR$/account-center/account-center-api/account-center-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easyFin.iml" filepath="$PROJECT_DIR$/easyFin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fin-common/fin-common.iml" filepath="$PROJECT_DIR$/fin-common/fin-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-center/mall-center.iml" filepath="$PROJECT_DIR$/mall-center/mall-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-center/mall-center-api/mall-center-api.iml" filepath="$PROJECT_DIR$/mall-center/mall-center-api/mall-center-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pay-center/pay-center.iml" filepath="$PROJECT_DIR$/pay-center/pay-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pay-center/pay-center-api/pay-center-api.iml" filepath="$PROJECT_DIR$/pay-center/pay-center-api/pay-center-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trans-center/trans-center.iml" filepath="$PROJECT_DIR$/trans-center/trans-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trans-center/trans-center-api/trans-center-api.iml" filepath="$PROJECT_DIR$/trans-center/trans-center-api/trans-center-api.iml" />
+    </modules>
+  </component>
+</project>

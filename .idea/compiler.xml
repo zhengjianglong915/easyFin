@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="account-center-api" />
+        <module name="fin-common" />
+        <module name="mall-center-api" />
+        <module name="pay-center-api" />
+        <module name="trans-center-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="account-center" target="1.7" />
+      <module name="account-center-api" target="1.7" />
+      <module name="easyFin" target="1.7" />
+      <module name="fin-common" target="1.7" />
+      <module name="mall-center" target="1.7" />
+      <module name="mall-center-api" target="1.7" />
+      <module name="pay-center" target="1.7" />
+      <module name="pay-center-api" target="1.7" />
+      <module name="trans-center" target="1.7" />
+      <module name="trans-center-api" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
