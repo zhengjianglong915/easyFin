@@ -7,23 +7,31 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="account-center-api" />
+        <module name="account-center-server" />
         <module name="fin-common" />
         <module name="mall-center-api" />
+        <module name="mall-center-server" />
         <module name="pay-center-api" />
+        <module name="pay-center-server" />
         <module name="trans-center-api" />
+        <module name="trans-center-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="account-center" target="1.7" />
       <module name="account-center-api" target="1.7" />
+      <module name="account-center-server" target="1.8" />
       <module name="easyFin" target="1.7" />
       <module name="fin-common" target="1.7" />
       <module name="mall-center" target="1.7" />
       <module name="mall-center-api" target="1.7" />
+      <module name="mall-center-server" target="1.8" />
       <module name="pay-center" target="1.7" />
       <module name="pay-center-api" target="1.7" />
+      <module name="pay-center-server" target="1.8" />
       <module name="trans-center" target="1.7" />
       <module name="trans-center-api" target="1.7" />
+      <module name="trans-center-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
