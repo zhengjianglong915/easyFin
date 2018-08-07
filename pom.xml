@@ -15,6 +15,7 @@
     <module>account-center</module>
     <module>mall-center</module>
     <module>fin-common</module>
+      <module>gateway-center</module>
   </modules>
 
   <name>easyFin</name>

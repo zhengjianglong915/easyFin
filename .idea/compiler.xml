@@ -9,6 +9,7 @@
         <module name="account-center-api" />
         <module name="account-center-server" />
         <module name="fin-common" />
+        <module name="gateway-center-api" />
         <module name="mall-center-api" />
         <module name="mall-center-server" />
         <module name="pay-center-api" />
@@ -23,6 +24,8 @@
       <module name="account-center-server" target="1.8" />
       <module name="easyFin" target="1.7" />
       <module name="fin-common" target="1.7" />
+      <module name="gateway-center" target="1.7" />
+      <module name="gateway-center-api" target="1.7" />
       <module name="mall-center" target="1.7" />
       <module name="mall-center-api" target="1.7" />
       <module name="mall-center-server" target="1.8" />

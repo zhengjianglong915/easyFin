@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/account-center/account-center-server/account-center-server.iml" filepath="$PROJECT_DIR$/account-center/account-center-server/account-center-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/easyFin.iml" filepath="$PROJECT_DIR$/easyFin.iml" />
       <module fileurl="file://$PROJECT_DIR$/fin-common/fin-common.iml" filepath="$PROJECT_DIR$/fin-common/fin-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway-center/gateway-center.iml" filepath="$PROJECT_DIR$/gateway-center/gateway-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway-center/gateway-center-api/gateway-center-api.iml" filepath="$PROJECT_DIR$/gateway-center/gateway-center-api/gateway-center-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-center/mall-center.iml" filepath="$PROJECT_DIR$/mall-center/mall-center.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-center/mall-center-api/mall-center-api.iml" filepath="$PROJECT_DIR$/mall-center/mall-center-api/mall-center-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-center/mall-center-server/mall-center-server.iml" filepath="$PROJECT_DIR$/mall-center/mall-center-server/mall-center-server.iml" />
