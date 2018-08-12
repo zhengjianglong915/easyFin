@@ -86,8 +86,6 @@ public class AutowiredTypeController {
     public String traceThread() {
         String ss = "success";
 
-
-
         executor.submit(new SofaTracerCallable<Object>(new Callable<Object>() {
             @Override
             public Object call() throws Exception {
