@@ -7,12 +7,8 @@
             http://sofastack.io/schema/sofaboot   http://sofastack.io/schema/sofaboot.xsd"
        default-autowire="byName">
 
-    <bean id="accountService" class="com.along.accountcenter.services.impl.AccountServiceImpl"/>
-    <sofa:service ref="accountService" interface="com.along.accountcenter.services.AccountService">
-        <sofa:binding.bolt/>
+    <bean id="payCenterService" class="com.along.paycenterserver.services.PayCenterServiceImpl"/>
+    <sofa:service ref="payCenterService" interface="com.along.services.PayCenterService">
+        <sofa:binding.dubbo/>
     </sofa:service>
-
-    <!--<sofa:reference id="payCenterServiceReference" interface="com.along.services.PayCenterService">-->
-        <!--<sofa:binding.dubbo/>-->
-    <!--</sofa:reference>-->
 </beans>

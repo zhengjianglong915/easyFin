@@ -15,9 +15,9 @@ public class TransCenterServerApplication {
         SpringApplication springApplication = new SpringApplication(TransCenterServerApplication.class);
         ApplicationContext applicationContext = springApplication.run(args);
 
-        AccountService accountService = (AccountService) applicationContext
-                .getBean("accountServiceReference");
-
-        System.out.println(accountService.queryAccount(112L));
+//        AccountService accountService = (AccountService) applicationContext
+//                .getBean("accountServiceReference");
+//
+//        System.out.println(accountService.queryAccount(112L));
     }
 }
